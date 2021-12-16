@@ -47,40 +47,40 @@ alert(d.getMinutes());*/
 
 //var validar = 0;
 //function validaIdade(idade){
-    //if(idade>=18){
-    //    validar=true
-    //}
-    //else{
-    //    validar=false
-    //}
-    //return validar;
+//if(idade>=18){
+//    validar=true
+//}
+//else{
+//    validar=false
+//}
+//return validar;
 //}
 //var idade = prompt("Qual sua idade");
 //validaIdade(idade);
 //console.log(validar)//
 
-function clicou(){
-    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
-    //alert("Obrigado por clicar")
+function clicou() {
+  document.getElementById('agradecimento').innerHTML = 'Obrigado por clicar'
+  //alert("Obrigado por clicar")
 }
 
-function redirecionar(){
-    //window.open("https://www.youtube.com"); //abre outra aba
-    window.location.href = "https://www.youtube.com"; //redireciona na mesma aba
+function redirecionar() {
+  //window.open("https://www.youtube.com"); //abre outra aba
+  window.location.href = 'https://www.youtube.com' //redireciona na mesma aba
 }
 
-function trocar(elemento){
-    //document.getElementById("mousemove").innerHTML = "Obrigado por passar"; // pega o elemento pelo id
-    //alert("trocar texto")
-    elemento.innerHTML = "Obrigado por passar o mouse";
+function trocar(elemento) {
+  //document.getElementById("mousemove").innerHTML = "Obrigado por passar"; // pega o elemento pelo id
+  //alert("trocar texto")
+  elemento.innerHTML = 'Obrigado por passar o mouse'
 }
-function voltar(elemento){
-    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"; // pega o elemento pelo id
-    elemento.innerHTML = "Passe o mouse aqui";
+function voltar(elemento) {
+  //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"; // pega o elemento pelo id
+  elemento.innerHTML = 'Passe o mouse aqui'
 }
-function load(){
-    alert("Página carregada");
+function load() {
+  alert('Página carregada')
 }
-function funcaoChange(elemento){
-    console.log(elemento.value);
+function funcaoChange(elemento) {
+  console.log(elemento.value)
 }
