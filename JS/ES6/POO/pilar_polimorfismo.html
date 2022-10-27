@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script>
+      // O polimorfismo é a sobrescrita de métodos de classes herdadas
+      class Animal {
+        constructor(cor, tamanho, peso) {
+          this.cor = cor
+          this.tamanho = tamanho
+          this.peso = peso
+        }
+
+        dormir() {
+          console.log('Dormir')
+        }
+      }
+
+      class Passaro extends Animal {
+        constructor(bico, cor, tamanho, peso) {
+          super(cor, tamanho, peso)
+          this.bico = bico
+        }
+
+        voar() {
+          console.log('Voando')
+        }
+      }
+
+      class Papagaio extends Passaro {
+        constructor(sabeFalar, bico, cor, tamanho, peso) {
+          super(bico, cor, tamanho, peso)
+          this.sabeFalar = sabeFalar
+        }
+      }
+
+      class Avestruz extends Passaro {
+        constructor(bico, cor, tamanho, peso) {}
+
+        enterrarCabeca() {
+          console.log('Enterrou a cabeça')
+        }
+
+        voar() {
+          console.log('O avestruz não pode voar')
+        }
+      }
+
+      var p = new Papagaio(true, 'Grande', 'verde', 43, 900)
+      console.log(p)
+    </script>
+  </head>
+  <body></body>
+</html>

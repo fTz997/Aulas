@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScripts</title>
+    <script>
+      var objects = ['Chair', 'Printer', 'Fork']
+
+      function actionAdd() {
+        var x = document.getElementById('object').value
+
+        if (x !== '') {
+          if (objects.indexOf(x) !== -1) {
+            alert('Este objeto já foi adicionado')
+          } else {
+            objects.push(x)
+            console.log(objects)
+
+            document.getElementById('object').value = ''
+          }
+        } else {
+          alert('Informe um objeto válido')
+        }
+      }
+
+      function actionOrdena() {
+        objects.sort()
+        console.log(objects)
+      }
+    </script>
+  </head>
+  <body>
+    <input id="object" type="text" />
+    <button type="button" onclick="actionAdd()">Adicionar</button>
+    <button type="button" onclick="actionOrdena()">Ordenar</button>
+  </body>
+</html>

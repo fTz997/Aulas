@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+
+    <script>
+      // Uma promise é um obj para processamento assíncrono, representa um valor que pode estar disponível agora, no futuro ou nunca
+      // Ajudam muito na organização do código
+
+      let resposta = {}
+      let promessa = new Promise((resolve, reject) => {
+        try {
+          setTimeout(() => {
+            resposta = { dados: { msg: 'Recuperamos os dados com sucesso' } }
+            resolve('Sucesso')
+          }, 3000)
+        } catch (e) {
+          setTimeout(() => {
+            reject(e)
+          }, 3000)
+        }
+      })
+
+      console.log(promessa)
+      setTimeout(() => {
+        console.log(promessa)
+        console.log(resposta)
+      }, 5000)
+    </script>
+  </head>
+  <body></body>
+</html>

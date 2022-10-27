@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script>
+      //contexto rest -> juntar
+      function soma(...param) {
+        let result = 0
+
+        param.forEach(v => (result += v))
+
+        return result
+      }
+
+      // console.log(soma(3, 4, 5, 2))
+
+      function mp(m, ...p) {
+        let result = 0
+
+        console.log(p)
+        p.forEach(v => (result += m * v))
+
+        return result
+      }
+
+      console.log(mp(2, 2, 2, 2))
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script>
+      //Token
+      //Funções -> dependerá do que será desestruturado
+
+      //Exemplo usando obj
+      let obj = {
+        a: 10,
+        b: 20,
+        c: 30,
+        d: 40
+      }
+
+      function teste({ a, d }) {
+        console.log(a, d)
+      }
+
+      teste(obj)
+
+      //exemplo usando array
+
+      let arr = [10, 20, 30, 40]
+      function test([a, b, , c, d = 'valor default']) {
+        console.log(a, b, c, d)
+      }
+
+      test(arr)
+    </script>
+  </head>
+  <body></body>
+</html>

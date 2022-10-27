@@ -1,0 +1,227 @@
+1
+00:00:18,690 --> 00:00:19,220
+Olá pessoal.
+
+2
+00:00:19,220 --> 00:00:23,930
+Seja bem vindo novamente aqui que o universo de programação em C é essencial.
+
+3
+00:00:24,090 --> 00:00:29,970
+Uma outra parte que eu sempre coloco aqui nessa primeira seção toda a explicação sobre cursos e tudo
+
+4
+00:00:29,970 --> 00:00:38,760
+mais e como conseguir ajuda tal como conseguir ajuda porque existem diferentes problemas que a gente
+
+5
+00:00:38,770 --> 00:00:43,570
+possa pode enfrentar na realização de um curso.
+
+6
+00:00:43,590 --> 00:00:51,840
+O problema pode ser por exemplo aqui no conteúdo do curso algum vídeo que está incompleto está errado
+
+7
+00:00:51,870 --> 00:00:58,970
+está trocado está faltando algo desse tipo então nesse caso você vai entrar em contato comigo vai entrar
+
+8
+00:00:58,980 --> 00:01:01,310
+vai entrar em perguntas e respostas.
+
+9
+00:01:01,440 --> 00:01:09,120
+Vai fazer uma nova pergunta verifica se já alguém já falou isso já não fez essa pergunta e eu já dei
+
+10
+00:01:09,120 --> 00:01:10,780
+a resposta ok.
+
+11
+00:01:10,850 --> 00:01:19,180
+Porque pode acontecer de fazer o upload de um recurso errado de um vídeo errado ou o vídeo está incompleto
+
+12
+00:01:19,180 --> 00:01:26,310
+ou algo desse tipo ou com um som ruim ou travando algo com alguma parte faltando.
+
+13
+00:01:26,430 --> 00:01:33,480
+Então você vai me mandar mensagem é claro a gente vai resolver eu vou fazer o upload novamente do vídeo
+
+14
+00:01:33,630 --> 00:01:36,420
+vou gravar o vídeo se for necessário OK.
+
+15
+00:01:36,480 --> 00:01:40,720
+Caso esteja com um áudio ruim algo do tipo OK e vou subir.
+
+16
+00:01:40,800 --> 00:01:47,190
+Não há problema algum pode ser problema por exemplo na hora que a gente estiver preparando o ambiente
+
+17
+00:01:47,250 --> 00:01:52,650
+aqui pode ser que você teve problema durante a instalação ou configuração no Windows ou no Linux ou
+
+18
+00:01:52,650 --> 00:01:53,490
+algo desse tipo.
+
+19
+00:01:53,790 --> 00:02:00,300
+Então você vai vir aqui perguntas e respostas vai também verificar se alguém já não passou por esse
+
+20
+00:02:00,300 --> 00:02:03,450
+problema e já foi respondido como resolvê OK.
+
+21
+00:02:03,540 --> 00:02:09,350
+Caso não você vai fazer uma nova pergunta informando qual é a seção que você tá.
+
+22
+00:02:09,420 --> 00:02:17,120
+Por exemplo aqui se são 2 onde a gente tem preparação do ambiente e qualquer o vídeo e o vídeo 4 ouvido
+
+23
+00:02:17,140 --> 00:02:21,150
+5 o vídeo 6 e o Windows 7 tá o quê que você estava fazendo.
+
+24
+00:02:21,150 --> 00:02:26,270
+Você vai detalhar isso aqui na pergunta para que eu possa resolver de forma rápida.
+
+25
+00:02:26,400 --> 00:02:33,950
+E claro essa pergunta que você vai fazer e as respostas as interações de você com outros usuários e
+
+26
+00:02:34,440 --> 00:02:37,440
+de mim com músicos os usuários.
+
+27
+00:02:37,440 --> 00:02:42,790
+Isso vai vai ajudar bastante a por exemplo.
+
+28
+00:02:43,000 --> 00:02:46,340
+Pergunta perguntas foram já respondidas por outros usuários.
+
+29
+00:02:46,340 --> 00:02:52,680
+Pode ser que resolva o seu problema ou pode ser que você veja uma pergunta que alguém fez e você já
+
+30
+00:02:52,680 --> 00:02:54,660
+passou por esse problema você resolveu.
+
+31
+00:02:54,660 --> 00:02:56,310
+Você pode responder aqui.
+
+32
+00:02:56,460 --> 00:02:58,630
+Para fazer essa interação ok.
+
+33
+00:02:58,650 --> 00:03:05,430
+Essa interação entre todos os alunos e os professores são superimportante porque é isso que faz a gente
+
+34
+00:03:05,790 --> 00:03:09,710
+se conectar se conhecer e crescer.
+
+35
+00:03:09,720 --> 00:03:11,200
+Todo mundo junto.
+
+36
+00:03:11,720 --> 00:03:20,130
+Ok então há um outro problema que pode ocorrer por exemplo pode pode não ser problema dos vídeos pode
+
+37
+00:03:20,130 --> 00:03:28,290
+não ser problema das das aulas mas por exemplo problemas com a plataforma e o que pode ser que eles
+
+38
+00:03:28,290 --> 00:03:30,870
+estejam com instabilidade em algum momento.
+
+39
+00:03:30,930 --> 00:03:36,780
+Pode ser que o player deles quando você clica no play aqui aqui ainda não tem vídeo nenhum mas pode
+
+40
+00:03:36,780 --> 00:03:41,580
+ser que quando você clique no play player fique travando coisas desse tipo.
+
+41
+00:03:41,760 --> 00:03:47,190
+Isso aí não tem nada a ver com as aulas com os vídeos e sim com a plataforma da Yumi.
+
+42
+00:03:47,460 --> 00:03:54,300
+Aí para isso você aqui no final tem a parte de suporte na qual você vai relatar oque eu estou fazendo
+
+43
+00:03:54,430 --> 00:04:02,010
+o curso e na hora que eu tentei executar ouvi o vídeo utilizando o navegador não sei Chrome Firefox
+
+44
+00:04:02,010 --> 00:04:05,560
+ou seja lá qual navegador você esteja utilizando.
+
+45
+00:04:05,640 --> 00:04:07,470
+Os vídeos estão travando muito.
+
+46
+00:04:07,470 --> 00:04:07,990
+Por quê.
+
+47
+00:04:08,190 --> 00:04:17,420
+Porque eles vão tentar melhorar a infra estrutura deles para que os vídeos parem de trabalhar ok.
+
+48
+00:04:17,700 --> 00:04:26,070
+Ou se for o caso por exemplo eles vão detectar olha os vídeos estão travando porque durante a renderização
+
+49
+00:04:26,220 --> 00:04:31,860
+dos vídeos foi utilizado um codec de áudio de vídeo não suportado.
+
+50
+00:04:32,250 --> 00:04:39,780
+Então aí eu vou renderizar novamente os vídeos utilizando outros codecs pra tentar melhorar e isso está
+
+51
+00:04:39,780 --> 00:04:40,130
+ok.
+
+52
+00:04:40,450 --> 00:04:52,170
+Mas são problemas que podem ocorrer no mais sempre eu vou voltar aqui respondendo às perguntas e tudo
+
+53
+00:04:52,170 --> 00:04:53,130
+mais.
+
+54
+00:04:53,140 --> 00:04:55,910
+E novamente não deixe de entrar em contato.
+
+55
+00:04:55,980 --> 00:04:58,630
+Não deixe de colocar seus problemas.
+
+56
+00:04:58,680 --> 00:05:04,140
+A gente vai sempre tentar responder da melhor forma possível.
+
+57
+00:05:04,380 --> 00:05:07,860
+Ok então um grande abraço cordial até o próximo.

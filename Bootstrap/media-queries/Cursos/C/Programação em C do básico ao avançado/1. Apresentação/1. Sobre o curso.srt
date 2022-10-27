@@ -1,0 +1,359 @@
+1
+00:00:18,870 --> 00:00:19,580
+Olá pessoal.
+
+2
+00:00:19,580 --> 00:00:24,550
+Seja bem vindo novamente alguém que veste programação em C essencial.
+
+3
+00:00:24,630 --> 00:00:33,760
+Esse é um excelente curso que você adquiriu que vai te levar com um conhecimento essencial sobre a linguagem
+
+4
+00:00:33,760 --> 00:00:34,160
+em si.
+
+5
+00:00:34,170 --> 00:00:39,220
+Então tudo que você precisa saber para falar eu sou um programador.
+
+6
+00:00:39,660 --> 00:00:45,900
+E claro parti para as áreas que você quer se você quer fazer programação de Robótica ou programação
+
+7
+00:00:46,190 --> 00:00:55,440
+em baixo nível já que se é uma linguagem de baixo nível não não tão baixo nível como Assembly mas claro
+
+8
+00:00:55,860 --> 00:00:58,690
+uma linguagem considerada baixo nível.
+
+9
+00:00:59,370 --> 00:01:05,090
+E nessa aula que a gente vai falar um pouco sobre o curso.
+
+10
+00:01:05,400 --> 00:01:08,060
+Então a gente está na sessão de apresentação.
+
+11
+00:01:08,130 --> 00:01:10,460
+Vamos falar um pouco sobre o curso.
+
+12
+00:01:10,650 --> 00:01:13,210
+Já deu pra vocês perceberem que são várias sessões.
+
+13
+00:01:13,230 --> 00:01:20,910
+São 18 sessões no total e se a gente tirar ali a sessão que apresentação e essas são 18 que é o encerramento
+
+14
+00:01:21,360 --> 00:01:25,130
+todas as demais são sessões de conteúdo.
+
+15
+00:01:25,290 --> 00:01:36,270
+Cada sessão está preparada com várias aulas de como o nosso conteúdo e cada sessão geralmente tem alguns
+
+16
+00:01:36,360 --> 00:01:41,390
+exercícios pra que a gente possa praticar aquilo que a gente está estudando.
+
+17
+00:01:41,950 --> 00:01:42,360
+OK.
+
+18
+00:01:42,600 --> 00:01:52,210
+Então é muito importante que você siga a sequência do curso da sessão por sessão aula por aula.
+
+19
+00:01:52,260 --> 00:01:56,280
+é muito importante que você assista toda a aula.
+
+20
+00:01:56,520 --> 00:02:02,760
+é muito importante que você realize os exercícios para cada exercício.
+
+21
+00:02:02,760 --> 00:02:07,460
+A gente também tem a resolução que eu vou estar disponibilizando para vocês ok.
+
+22
+00:02:07,500 --> 00:02:16,770
+Então você vai poder checar o que você fez e o que foi colocado como solução e vai poder interagir sempre
+
+23
+00:02:16,770 --> 00:02:18,950
+dessa forma.
+
+24
+00:02:19,080 --> 00:02:29,570
+Um outro parênteses aqui que eu vou dar sobre onde a gente vai ver a relação do conteúdo.
+
+25
+00:02:29,820 --> 00:02:36,630
+Aqui eu tenho por exemplo 18 sessões com algumas aulas já pré determinadas.
+
+26
+00:02:36,630 --> 00:02:44,060
+Pode ser que durante o desenvolvimento de cada curso de cada sessão dessa pode ser que eu acrescente
+
+27
+00:02:44,060 --> 00:02:45,870
+que eu modifique ok.
+
+28
+00:02:45,930 --> 00:02:51,680
+Porque o curso ainda está em produção enquanto eu estou gravando esse vídeo está ok.
+
+29
+00:02:51,720 --> 00:02:54,280
+Eu estou gravando os vídeos aqui da sessão.
+
+30
+00:02:54,330 --> 00:02:58,980
+Pode ser que eu chegue de sei lá lá na seção 5 por exemplo estruturas de repetição.
+
+31
+00:02:58,980 --> 00:03:02,820
+Eu vejo somente três aulas ali não serão suficientes.
+
+32
+00:03:02,820 --> 00:03:04,820
+Pode ser que eu tenha que adicionar mais aulas.
+
+33
+00:03:04,830 --> 00:03:07,810
+5 7 das aulas não importa.
+
+34
+00:03:08,390 --> 00:03:15,150
+Ok eu vou colocar todo o que for essencial sobre cada um desses tópicos.
+
+35
+00:03:15,220 --> 00:03:21,240
+E veja bem a gente vai ter desde a preparação do ambiente deixar o seu ambiente pronto lá na seção 2.
+
+36
+00:03:21,240 --> 00:03:26,340
+Independente se você utiliza o Windows ou Linux então que a gente vai deixar tudo preparado para a gente
+
+37
+00:03:26,340 --> 00:03:29,670
+criar e executar os nossos programas.
+
+38
+00:03:29,670 --> 00:03:33,690
+Na seção 3 a gente vai ter lá uma introdução à linguagem C.
+
+39
+00:03:33,710 --> 00:03:40,490
+Então vamos falar sobre a linguagem sei vamos ter as aulas variáveis compilador função e tudo mais então
+
+40
+00:03:40,530 --> 00:03:45,780
+aquele aquele princípio que você conhecia a linguagem mesmo que você já conheça.
+
+41
+00:03:45,780 --> 00:03:49,710
+é importante que você faça as aulas dessa sessão.
+
+42
+00:03:49,710 --> 00:03:56,880
+Então vamos entrar em estruturas de decisão ok na seção 4 na seção 5 com estruturas de repetição na
+
+43
+00:03:56,880 --> 00:03:59,420
+seção 6 tipos de dados.
+
+44
+00:03:59,580 --> 00:04:07,440
+Na seção 7 vetores e matrizes na seção 8 números binários e aqui já vem aquele parêntese conforme a
+
+45
+00:04:07,440 --> 00:04:10,710
+gente falou lá no início com a linguagem C.
+
+46
+00:04:10,860 --> 00:04:15,990
+Você trabalha baixo nível você pode trabalhar baixo nível e quando a gente fala de binários ali a gente
+
+47
+00:04:15,990 --> 00:04:17,920
+está falando das linguagens de máquina né.
+
+48
+00:04:18,860 --> 00:04:22,790
+Então a gente trabalha também a baixo nível com C.
+
+49
+00:04:22,950 --> 00:04:26,240
+Vamos falar de funções não somente.
+
+50
+00:04:26,280 --> 00:04:33,600
+Como você declarar funções utilizar as funções dos mais diferentes tipos mas também você criar suas
+
+51
+00:04:34,440 --> 00:04:38,940
+bibliotecas em si para poder reutilizar nos seus projetos.
+
+52
+00:04:38,940 --> 00:04:45,570
+Então a gente vai ver tudo nessa sessão na Seção 10 vamos falar sobre ponteiros porque as pessoas têm
+
+53
+00:04:45,570 --> 00:04:47,550
+bastante dificuldade em ponteiros.
+
+54
+00:04:47,550 --> 00:04:53,730
+A gente vai tratar de ponteiros aqui você vai finalmente compreender o que são porque utilizá los e
+
+55
+00:04:53,730 --> 00:05:00,440
+como utilizá los na sessão 8 11 vamos falar de entradas e saídas.
+
+56
+00:05:00,690 --> 00:05:07,260
+Mente a gente tem as entradas de dados via teclado e você digita as informações solicitadas pelo programa
+
+57
+00:05:07,470 --> 00:05:16,900
+e a saída geralmente são os monitores mas também veremos como você tem as entradas vindo de um arquivo
+
+58
+00:05:16,900 --> 00:05:22,820
+texto ou escrevia saídas para um arquivo texto ou fazer a leitura escrita de arquivos textos.
+
+59
+00:05:22,840 --> 00:05:29,710
+é super importante também na seção 12 vamos falar dos trópicos e sei então histórias que deixam a programação
+
+60
+00:05:29,710 --> 00:05:37,520
+em C muito mais robusta né você cria seus próprios tipos de dados mais complexos utilizando extracto
+
+61
+00:05:38,590 --> 00:05:39,370
+na Seção 3.
+
+62
+00:05:39,380 --> 00:05:46,450
+Vamos falar de recursividade recursividade que é super importante também na otimização na utilização
+
+63
+00:05:46,990 --> 00:05:49,990
+de alguns recursos avançados da programação.
+
+64
+00:05:50,050 --> 00:05:58,690
+Vamos falar de diretivas de compilação na qual você torna seu programa faz com que seu programa seja
+
+65
+00:05:58,690 --> 00:06:05,290
+compilado de formas diferentes de acordo com o sistema operacional de acordo com outras informações.
+
+66
+00:06:05,290 --> 00:06:12,840
+Na seção 15 vai ser uma seção somente sobre bibliotecas úteis em C bibliotecas que a gente utiliza no
+
+67
+00:06:12,850 --> 00:06:20,430
+qual pode utilizar no dia a dia para facilitar nossa vida tem várias funções prontas incluídas já por
+
+68
+00:06:20,440 --> 00:06:23,800
+default nas bibliotecas padrão da linguagem C.
+
+69
+00:06:23,860 --> 00:06:31,720
+A gente vai ver como utilizar as algumas mais importantes na seção 6 alocação dinâmica de memória.
+
+70
+00:06:31,930 --> 00:06:39,940
+Então uma outra parte junto com ponteiros lá em C que pega bastante que as pessoas têm bastante dificuldade
+
+71
+00:06:39,940 --> 00:06:41,860
+então a gente vai desmistificar isso.
+
+72
+00:06:41,860 --> 00:06:49,540
+Vai ver como utilizar porque utilizar quando utilizar na seção 17 uma outra área que pega bastante os
+
+73
+00:06:49,540 --> 00:06:55,630
+alunos que são estruturas de dados então a gente vai ver o que são pilhas como utilizar pilhas.
+
+74
+00:06:55,720 --> 00:07:01,180
+A gente vai ver sobre fila pilha lista encadeada árvore binária.
+
+75
+00:07:01,180 --> 00:07:03,150
+Tá tudo aqui nessa seção 17.
+
+76
+00:07:03,150 --> 00:07:09,630
+Então só essa seção 17 já daria um curso de descer na estrutura de dados em C.
+
+77
+00:07:09,700 --> 00:07:13,110
+Só isso aqui já é um curso já seria um curso.
+
+78
+00:07:13,120 --> 00:07:17,560
+A gente vai ver tudo nessa sessão incluída em programação C é essencial.
+
+79
+00:07:17,590 --> 00:07:24,510
+é claro que tem lá um encerramento na qual a gente recapitular tudo que foi estudado e segue em frente.
+
+80
+00:07:24,550 --> 00:07:27,060
+Pessoal então é um curso super completo.
+
+81
+00:07:27,130 --> 00:07:31,740
+Vocês com certeza vão aprender bastante.
+
+82
+00:07:31,780 --> 00:07:41,080
+A gente tem previsão de 84 aulas toquei 84 aulas no total dividida nas 18 seções.
+
+83
+00:07:41,080 --> 00:07:44,500
+Novamente esse número com certeza não é o acha.
+
+84
+00:07:44,500 --> 00:07:50,710
+Com certeza esse número vai aumentar porque no desenvolvimento dos cursos a gente tem experiência de
+
+85
+00:07:50,710 --> 00:07:58,600
+que em vez de fazer uma aula muito grande a gente prefere dividir as vezes em que acrescenta tópicos
+
+86
+00:07:58,600 --> 00:08:03,410
+que não estavam relacionados ali mas que foram necessários então ok.
+
+87
+00:08:03,460 --> 00:08:11,470
+Então aqui vocês vão achar todas as informações sobre o curso e todas sobre todas as aulas.
+
+88
+00:08:11,740 --> 00:08:19,460
+Ok então espero que você goste novamente muito obrigado por estar nesse curso.
+
+89
+00:08:19,510 --> 00:08:20,620
+Vamo que vamo.
+
+90
+00:08:20,620 --> 00:08:21,980
+Grande abraço cordial.

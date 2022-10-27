@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+
+    <script>
+      // Generators são funções especiais que podem ser executadas, pausadas e continuadas em diferentes estágios da execução
+
+      function* testeGenerator() {
+        yield 'Teste 1'
+        yield 'Teste 2'
+        yield 'Teste 3'
+        return 'Teste 4'
+      }
+
+      let meuGenerator = testeGenerator()
+
+      console.log(meuGenerator.next())
+      console.log('-------')
+      // A execução é continuada após o comando abaixo contendo .next()
+      console.log(meuGenerator.next())
+      console.log('-------')
+      console.log(meuGenerator.next())
+      console.log('-------')
+      console.log(meuGenerator.next())
+    </script>
+  </head>
+  <body></body>
+</html>

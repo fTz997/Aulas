@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScripts</title>
+    <script>
+      // true && true = true
+      // if (2 == 2 && 3 > 1) {
+      //   document.write('Verdadeiro' + '<br>')
+      // }
+
+      // true || false = true
+      // if (3 > 2 || 'a' === 'b') {
+      //   document.write('vdd' + '<br>')
+      // } else {
+      //   document.write('falso' + '<br>')
+      // }
+
+      // true = false
+      // if (!(4 < 2)) {
+      //   document.write('true' + '<br>')
+      // } else {
+      //   document.write('false' + '<br>')
+      // }
+
+      //Operador ternário
+      // var result = <condicao> ? <true> : <false>
+
+      var nota = prompt('Digite a nota do aluno: ')
+      var faltas = prompt('Digite a quantidade de faltas ')
+      var media = 7
+      var maxFaltas = 15
+
+      // if (nota >= media && faltas <= maxFaltas) {
+      //   document.write('Aprovado, parabéns')
+      // } else {
+      //   document.write('Reprovado')
+      // }
+
+      // mesma operação usando um operador ternário
+      var aprova =
+        nota >= media && faltas <= maxFaltas
+          ? 'Parabéns, você foi aprovado'
+          : 'Não foi dessa vez, reprovado'
+
+      document.write(aprova)
+    </script>
+  </head>
+  <body></body>
+</html>

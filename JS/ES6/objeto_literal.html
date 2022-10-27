@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script>
+      // São usados porque nem sempre é necessária a criação de uma classe para estruturação de um objeto,sendo assim, serão objetos únicos ao invés de uma coleção
+
+      class Produto {
+        constructor(nome, preco) {
+          this.nome = nome
+          this.preco = preco
+        }
+
+        verAnuncio() {
+          console.log(`O ${this.nome}, está custando apenas ${this.preco}`)
+        }
+      }
+
+      //-----------------------------------
+
+      let produtoLiteral = {
+        nome: 'Geladeira',
+        preco: 2899.8,
+        verAnuncio: function () {
+          console.log(
+            `O produto: ${this.nome} está custando apenas R$ ${this.preco}`
+          )
+        }
+      }
+
+      produtoLiteral.verAnuncio()
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScripts</title>
+    <script>
+      var lista_frutas = ['Banana', 'Maçã', 'Morango', 'Uva', 'Pera']
+
+      //A técnica de wrap é considerada uma boa pratic
+      //A sequência sempre será valor indice e array
+      var func = function (valor, indice, array) {
+        console.log('indice: ' + indice + ' | valor: ' + valor)
+
+        if (valor == 'Banana') {
+          lista_frutas[indice] = 'novo valor'
+        }
+      }
+
+      lista_frutas.forEach(func) //o foreach desconsidera valores que não são numéricos
+
+      console.log(lista_frutas)
+
+      //
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+
+    <script>
+      // Nesse exemplo ao invés da usar a função tratativa de erros try/catch, será usado somente as funções da Promise, sendo assim, .then para resultados positivos e .catch para erros
+      let promessa1 = new Promise((resolve, reject) => {
+        // após uma requisição http para recuperar uma relação de usuários
+        setTimeout(() => {
+          let request_response = {}
+
+          //erro na requisição
+          if (false) {
+            request_response = {
+              codigo: 1050,
+              erro: 'Falha na autenticação'
+            }
+
+            reject(request_response)
+          }
+
+          request_response = {
+            0: { id: 1, nome: 'João' },
+            1: { id: 2, nome: 'José' },
+            2: { id: 3, nome: 'Maria' }
+          }
+
+          resolve(request_response)
+        }, 4000)
+      })
+        .then(dados => {
+          console.log(dados)
+          let promessa2 = new Promise((resolve, reject) => {
+            //requisição http pra recuperar uma relação de posts dos usuários
+            setTimeout(() => {
+              let request_response = {}
+
+              //Erro na requisição
+              if (false) {
+                request_response = {
+                  codigo: 7788,
+                  erro: 'Erro ao recuperar os posts dos usuários'
+                }
+                reject(request_response)
+              }
+
+              request_response = {
+                0: {
+                  id: 1,
+                  usuario_id: 1,
+                  posts: [
+                    { id: 1, post: 'Post 1' },
+                    { id: 2, post: 'Post 2' }
+                  ]
+                },
+                1: {
+                  id: 2,
+                  usuario_id: 2,
+                  posts: [
+                    { id: 3, post: 'Post 1' },
+                    { id: 4, post: 'Post 2' }
+                  ]
+                },
+                2: {
+                  id: 3,
+                  usuario_id: 3,
+                  posts: [
+                    { id: 5, post: 'Post 1' },
+                    { id: 4, post: 'Post 2' }
+                  ]
+                }
+              }
+
+              resolve(request_response)
+            }, 4000)
+          })
+            .then(dados => {
+              console.log(dados)
+            })
+            .catch(erro => {
+              console.log(erro)
+            })
+        })
+        .then(param => {
+          console.log('Then número 2 ', param)
+        })
+        .then(() => {
+          console.log('Then número 3')
+        })
+        .then(() => {
+          console.log('Then número 4')
+
+          return 'Parâmetro capturado no then anterior'
+        })
+
+        //Caso ocorra um erro na promessa1, o código será executado a partir daqui
+        .catch(erro => {
+          console.log('Operação sequencial (Catch): ', erro)
+
+          return 'Parâmetro capturado no catch e enviado para o Then seguinte'
+        })
+        .then(param => {
+          console.log('Then número 5', param)
+        })
+        .then(() => {
+          console.log('Then número 6')
+        })
+    </script>
+  </head>
+  <body></body>
+</html>

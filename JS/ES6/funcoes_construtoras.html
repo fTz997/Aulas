@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script>
+      let Carro = function (modelo, cor, vAtual, vMax) {
+        this.modelo = modelo
+        this.cor = cor
+        this.velocidadeAtual = vAtual
+        this.velocidadeMax = vMax
+
+        this.acelerar = function () {
+          let velocidade = this.getVelocidadeAtual() + 10
+          this.setVelocidadeAtual(velocidade)
+        }
+
+        this.getVelocidadeAtual = function () {
+          return this.velocidadeAtual
+        }
+
+        this.setVelocidadeAtual = function (velocidadeAtual) {
+          this.velocidadeAtual = velocidadeAtual
+        }
+      }
+
+      var teste = new Carro('Corsa', 'Amarelo', 0, 120)
+      console.log(teste)
+
+      console.log(teste.getVelocidadeAtual())
+      teste.acelerar()
+
+      console.log(teste.getVelocidadeAtual())
+      teste.setVelocidadeAtual(180)
+      console.log(teste.getVelocidadeAtual())
+    </script>
+  </head>
+  <body></body>
+</html>

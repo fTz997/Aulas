@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script>
+      let produto = {
+        descricao: 'Notebook',
+        preco: 1800,
+        detalhes: {
+          fabricante: 'positivo',
+          modelo: undefined
+        }
+      }
+
+      // token
+      // objeto -> {}
+
+      //let {descricao:d, preco:p} = produto // alterar o nome do atributo do objeto
+
+      //let {descricao:d, preco:p = 1000} = produto // valor default caso no objeto esteja indefinido
+
+      let {
+        detalhes: { fabricante: f, modelo: m = 'Não informado' }
+      } = produto // pegando o objeto dentro do objeto e atribuindo um valor padrão em modelo
+
+      console.log(f, m)
+    </script>
+  </head>
+  <body></body>
+</html>

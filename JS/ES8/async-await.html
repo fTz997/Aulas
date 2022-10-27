@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script>
+      // let url = 'https://jsonplaceholder.typicode.com/users'
+
+      /*
+      async function getPosts() {
+        // asyncProcess.then(p => console.log(p))
+        // console.log('Executa 1º que a promise')
+
+        await fetch(url)
+          .then(r => r.json())
+          .then(d => console.log(d))
+
+        console.log('Fim')
+      }
+
+      getPosts().catch(erro => {
+        console.log('ERRO')
+      })
+      */
+
+      /// Exemplo fazendo requests paralelos usando a lib axios
+
+      const getPokemonUrl = pokeNumber =>
+        `https://pokeapi.co/api/v2/pokemon/${pokeNumber}`
+
+      async function get3Pokemon() {
+        const promisePokemon1 = axios.get(getPokemonUrl(1))
+        const promisePokemon2 = axios.get(getPokemonUrl(4))
+        const promisePokemon3 = axios.get(getPokemonUrl(7))
+
+        const pokemons = await Promise.all([
+          promisePokemon1,
+          promisePokemon2,
+          promisePokemon3
+        ])
+
+        console.log(pokemons)
+      }
+
+      get3Pokemon()
+    </script>
+  </head>
+  <body></body>
+</html>

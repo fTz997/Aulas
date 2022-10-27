@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script>
+      var nome = 'Victor'
+      var idade = 21
+      var sexo = 'Masculino'
+      var profissao = 'Programador'
+
+      // Formatação padrao ES5
+      let objeto = {
+        nome: nome,
+        idade: idade,
+        sexo: sexo,
+        profissao: profissao,
+        exibirResumo: function () {
+          console.log()
+        }
+      }
+
+      // Formatação ES6
+      // quando a variavel de valor possui o mesmo nome da chave(key) é possivel omitir o nome da chave e deixando somente o valor
+      // Também é permitido implementar uma função diretamente sem a necessidade de passar a função a uma chave e armazená-la como um valor
+      let objeto2 = {
+        nome, // nome = nome variável / valor = valor da variavel
+        idade,
+        sexo,
+        profissao,
+        exibirResumo() {
+          console.log(`O ${nome} tem ${idade} e é ${profissao}`)
+        }
+      }
+
+      console.log(objeto2)
+      objeto2.exibirResumo()
+    </script>
+  </head>
+  <body></body>
+</html>

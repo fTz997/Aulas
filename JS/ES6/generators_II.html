@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+
+    <script>
+      // Para funcionamento correto é necessária a extensão Live Server e o arquivo piadas.json
+      function* conversar() {
+        let opcao = yield 'Eai, td bem?'
+
+        //2 bloco
+        if (opcao == 'sim') {
+          yield 'Ótimo, fico feliz!'
+
+          opcao = yield 'Como eu posso te ajudar? Quer uma piada para começar?'
+
+          if (opcao == 'sim') {
+            fetch('piadas.json')
+              .then(resposta => resposta.json())
+              .then(piadas => {
+                let idx = Math.floor(Math.random() * 10)
+                let piada = piadas[idx]
+
+                console.log(piada.piada)
+
+                setTimeout(() => {
+                  console.log(piada.resposta)
+                  console.log('kkkkkkkkk muito boa né!')
+                }, 4000)
+              })
+          } else {
+            yield 'Digite 1 para compras, 2 para vendas ou 3 para falar com um atendente'
+          }
+        } else {
+          yield 'Respire fundo e tenha paciência'
+
+          yield 'Digite 1 para compras, 2 para vendas ou 3 para falar com um atendente'
+        }
+
+        setTimeout(() => {
+          return yield 'Digite 1 para compras, 2 para vendas ou 3 para falar com um atendente'
+        }, 6000);
+        return 'Atendimento finalizado!'
+      }
+
+      let conversa = conversar()
+
+      function acao() {
+        let resposta = document.getElementById('resposta').value
+
+        let iteracao = conversa.next(resposta)
+        console.log(iteracao)
+
+        if (iteracao.done) {
+          document.getElementById('teste').style.display = 'none'
+        }
+      }
+    </script>
+  </head>
+  <body id="teste">
+    <button type="button" onclick="acao()">Avançar</button>
+    Resposta <input type="text" id="resposta" />
+  </body>
+</html>

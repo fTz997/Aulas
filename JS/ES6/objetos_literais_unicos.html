@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script>
+      // todo objeto literal é unico dentro da aplicacao, e quando esse objeto é atribuido á outras variaveis, na verdade só faz com que outras variáveis funcionem como um acesso para esse objeto literal
+      let assinatura = {
+        idCliente: 1000,
+        descricao: 'Acesso a internet',
+        status() {
+          console.log('Ativo')
+        }
+      }
+
+      let t = assinatura
+
+      console.log(assinatura)
+      t.descricao = 'escolha seu plano'
+
+      console.log(assinatura)
+      console.log(t)
+    </script>
+  </head>
+  <body></body>
+</html>

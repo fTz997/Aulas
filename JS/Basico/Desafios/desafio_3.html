@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScripts</title>
+    <script>
+      var n1 = parseFloat(prompt('Digite um número'))
+      var op = prompt('Soma ou Subtração?')
+      var n2 = parseFloat(prompt('Digite outro número'))
+
+      function calcula(n1, n2, op) {
+        var result = 0
+
+        if (op.toLowerCase() == 'soma') {
+          result = n1 + n2
+        } else if (op.toLowerCase == 'subtração') {
+          result = n1 - n2
+        } else {
+          document.write('Operação inválida, tente novamente')
+        }
+        return result
+      }
+
+      document.write('O resultado é: ' + calcula(n1, n2, op))
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script>
+      let Carro = function (modelo, cor, vAtual, vMax) {
+        this.modelo = modelo
+        this.cor = cor
+        this.velocidadeAtual = vAtual
+        this.velocidadeMax = vMax
+
+        this.acelerar = function () {
+          let velocidade = this.getVelocidadeAtual() + 50
+          if (velocidade > this.velocidadeMax) {
+            velocidade = this.velocidadeMax
+          }
+          this.setVelocidadeAtual(velocidade)
+        }
+
+        this.getVelocidadeAtual = function () {
+          return this.velocidadeAtual
+        }
+
+        this.setVelocidadeAtual = function (velocidadeAtual) {
+          this.velocidadeAtual = velocidadeAtual
+        }
+      }
+
+      let Carro2 = function (modelo, cor, vAtual, vMax) {
+        var velocidadeMax = vMax
+        var kmRodados = 0
+
+        this.modelo = modelo
+        this.cor = cor
+        this.velocidadeAtual = vAtual
+
+        this.acelerar = function () {
+          let velocidade = this.getVelocidadeAtual() + 50
+          if (velocidade > velocidadeMax) {
+            velocidade = velocidadeMax
+          }
+          this.setVelocidadeAtual(velocidade)
+          setKmRodados(0.07)
+        }
+
+        this.getVelocidadeAtual = function () {
+          return this.velocidadeAtual
+        }
+
+        this.setVelocidadeAtual = function (velocidadeAtual) {
+          this.velocidadeAtual = velocidadeAtual
+        }
+
+        var setKmRodados = function (q) {
+          kmRodados += q
+        }
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

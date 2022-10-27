@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script>
+      let animal = { at1: 1 }
+      let vertebrado = { __proto__: animal, at2: 2 }
+      let ave = { __proto__: vertebrado, at3: 3 }
+
+      console.log(ave.at3, ave.at2, ave.at1)
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script>
+      function x() {
+        if (true) {
+          let teste = 'teste'
+          var test = 'eai'
+          //Variáveis declaradas com let não sofrem hoisting, só estarão disponíveis no escopo do bloco. Já variáveis declaradas com var, sofrerão hoisting para o escopo de função, assim, ficanco disponível para toda a função
+        }
+
+        console.log(test)
+      }
+
+      x()
+    </script>
+  </head>
+  <body>
+    <div id="sai"></div>
+  </body>
+</html>

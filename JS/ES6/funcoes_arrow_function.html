@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script>
+      //função anonima
+      let anonima = function (x = 5) {
+        return x * x
+      }
+      document.write(anonima(7) + '<br>')
+
+      //arrow function, não é origatório o uso de () caso só for usado um parãmetro na função
+
+      var quadrado = x => x * x // return implícito, pode ser usado quando a função nao tiver uma lógica tão complexa
+
+      document.write(quadrado(5))
+
+      document.write(
+        '<br>---------------------------------------------------<br>'
+      )
+
+      //EXERCÍCIO
+      //fazer uma arrow function capaz de retornar se o numéro é par ou impar
+
+      // let parOuImpar = num => {
+      //   if (num % 2 === 0) {
+      //     return 'par'
+      //   } else {
+      //     return 'impar'
+      //   }
+      // }
+
+      //Também é possivel refatorar essa função e implementar o if ternário e remover o uso de chaves
+
+      let parOuImpar = num => (num % 2 === 0 ? 'par' : 'impar')
+
+      document.write(parOuImpar(8))
+    </script>
+  </head>
+  <body></body>
+</html>

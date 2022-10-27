@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script>
+      //token
+      // array -> []
+      let frutas = ['Abacaxi', 'Uva', 'Pera', 'Mamão']
+
+      //let [a, b, , c] = frutas // pular um indice
+
+      let [a, b, c, d, e = 'Banana'] = frutas // valor defalult caso nao tenha o indice especificado no array, mas caso tenha o valor é sobrescrito o é exibido o valor presente no array
+
+      //console.log(a, b, c, d, e)
+
+      //Extraindo valores de arrays multidimensionais
+      let coisas = [
+        ['Abacaxi', 'Uva', 'Pera', 'Mamão'],
+        ['José', 'Maria']
+      ]
+
+      // EX: recuperar o valor Maria do array coisas recuperar o valor Pera do array coisas
+      let [[, , p], [, m]] = coisas
+      console.log(p, m)
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <title>Input group</title>
+  </head>
+  <body style="margin-bottom: 200px; padding: 16px">
+    <form>
+      <!-- Grupo prepend -->
+      <h2>Grupo prepend</h2>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">@</span>
+        </div>
+        <input class="form-control" type="text" placeholder="Seu email" />
+      </div>
+
+      <!-- Grupo append -->
+      <h2>Grupo append</h2>
+      <div class="input-group">
+        <input class="form-control" type="text" placeholder="Seu email" />
+        <div class="input-group-append">
+          <span class="input-group-text">@email.com</span>
+        </div>
+      </div>
+
+      <!-- URL customizada -->
+      <h2>URL customizada</h2>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">https://www.site.com/usuario/</span>
+        </div>
+        <input class="form-control" type="text" placeholder="Seu usuário" />
+      </div>
+
+      <!-- Moeda -->
+      <h2>Moeda</h2>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">$</span>
+        </div>
+        <input
+          class="form-control"
+          type="text"
+          placeholder="Quantia desejada"
+        />
+        <div class="input-group-append">
+          <span class="input-group-text">,00</span>
+        </div>
+      </div>
+
+      <!-- type: checkbox, radio -->
+      <h2>Checkbox/Radio</h2>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <input type="radio" />
+          </div>
+        </div>
+        <input class="form-control" type="text" />
+      </div>
+
+      <!-- Múltiplos inputs-->
+      <h2>Múltiplos</h2>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Nome e email</span>
+          <input class="form-control" type="text" placeholder="Seu email" />
+          <input class="form-control" type="password" placeholder="Senha" />
+        </div>
+      </div>
+
+      <!-- Pesquisas -->
+      <h2>Pesquisas</h2>
+      <div class="input-group">
+        <input class="form-control" type="text" placeholder="Pesquisar" />
+        <div class="input-group-append">
+          <button type="button" class="btn btn-secondary">Pesquisar</button>
+        </div>
+      </div>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

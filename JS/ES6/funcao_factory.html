@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script>
+      let BikeFactory = function (cor, marcha, aro) {
+        return {
+          cor,
+          marcha,
+          aro,
+          pedalar() {
+            console.log('Pedalando')
+          }
+        }
+      }
+
+      let Bike = BikeFactory('Vermelha', '18', 26)
+      console.log(Bike)
+    </script>
+  </head>
+  <body></body>
+</html>

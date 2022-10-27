@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScripts</title>
+    <script>
+      var video = []
+
+      video[1] = Array()
+      video['nome'] = 'Fullmetal Alchemist'
+      video['categoria'] = 'Anime'
+
+      function getVideo(video) {
+        // a condição try...catch é implementada em situações que podem ocorrer um erro
+        try {
+          console.log(video[0]['nome'])
+        } catch (e) {
+          //trataErro(e)
+          console.log('tratando do erro')
+          throw new Error('Houve um erro, estamos trabalhando nisso')
+        } finally {
+          console.log('Sempre passa por aqui')
+        }
+      }
+
+      getVideo(video)
+
+      // opção de envio do erro para a equipe de dev
+      // function trataErro(erro) {
+      //   //logica que registraria no servidor
+
+      //   console.log('a')
+      // }
+    </script>
+  </head>
+  <body></body>
+</html>
